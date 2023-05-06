@@ -1,4 +1,17 @@
-*, *::after, *::before {
-    box-sizing: border-box;
-    font-family: sans-serif;
+/* addingg margin, padding and background color to the body */
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+/* styling the contents of the container */
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate (-50%, -50%);
+    font-size: 70px;
 }
